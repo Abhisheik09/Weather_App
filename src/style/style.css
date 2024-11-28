@@ -1,0 +1,78 @@
+#main {
+  display: block;
+  background-image: url("../images/summer.jpg");
+  background-size: cover;
+  background-position-y: 100%;
+  height: 80vh;
+}
+
+#image {
+  background-image: url("../images/sunset.jpg");
+  background-size: cover;
+  background-position-y: 100%;
+  height: 75vh;
+}
+
+#section {
+  display: none;
+  height: 80vh;
+}
+
+#temp,
+#feel,
+#desc,
+#pressure,
+#humidity,
+#minTemp,
+#maxTemp,
+#wind,
+#windDir,
+#clouds,
+#sunrise,
+#sunset {
+  background-color: red;
+}
+
+#home {
+  cursor: pointer;
+}
+
+.algolia-places {}
+
+
+.ap-input, .ap-hint {}
+
+.ap-input:hover ~ .ap-input-icon svg,
+.ap-input:focus ~ .ap-input-icon svg,
+.ap-input-icon:hover svg {}
+
+.ap-dropdown-menu {}
+
+.ap-suggestion {
+  text-align: start;
+}
+
+.ap-suggestion em {}
+
+.ap-address {}
+
+.ap-suggestion-icon {}
+
+.ap-suggestion-icon svg {}
+
+
+.ap-input-icon {right: 235px;}
+
+.ap-input-icon svg {}
+
+.ap-cursor {}
+
+.ap-cursor .ap-suggestion-icon svg {}
+
+.ap-footer {}
+
+.ap-footer a {}
+
+.ap-footer a svg {}
+
+.ap-footer:hover {}
